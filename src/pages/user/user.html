@@ -1,0 +1,14 @@
+<!-- <div>
+  User page
+  <br/>
+  <router-link :to="{name: 'repositories'}">
+    To repositories page
+  </router-link>
+</div> -->
+
+<div>
+  <user-card
+    v-if="user"
+    :user="user"
+  ></user-card>
+</div>
